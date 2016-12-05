@@ -1,0 +1,238 @@
+/*****
+             *     ,MMM8&&&.            *
+                  MMMM88&&&&&    .
+                 MMMM88&&&&&&&
+     *           MMM88&&&&&&&&
+                 MMM88&&&&&&&&
+                 'MMM88&&&&&&'
+                   'MMM8&&&'      *
+          |\___/|
+          )     (             .              '
+         =\     /=
+           )   (       *
+          /     \
+          |     |
+         /       \
+         \       /
+  _/\_/\_/\__  _/_/\_/\_/\_/\_/\_/\_/\_/\_/\_
+  |  |  |  |( (  |  |  |  |  |  |  |  |  |  |
+  |  |  |  | ) ) |  |  |  |  |  |  |  |  |  |
+  |  |  |  |(_(  |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+     |  |  |  |  |  |  |  |  |  |  |  |  |  |
+*****/
+/**********************
+GLOBAL
+**********************/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:focus,:active {
+	outline: 0;
+}
+
+body, footer {
+	font-family: Lato;
+	color: #000;
+	background: #4484CE;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.clearB {
+	clear: both;
+}
+/**********************
+TEXT TAGS
+**********************/
+.pContent {
+	line-height: 25px;
+	margin: 0 0 25px;
+	color:#666;
+	font-weight: 300;
+}
+
+
+h1 {
+	font-size: 25px;
+	font-weight: 400;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+h2 { font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 2px;
+	color: #333;
+}
+h3 { font-size: 14px;
+	font-weight: bolder;
+	margin-bottom: 10px;
+	color: #333;
+}
+
+
+.info {
+	font-size: 11px;
+	color: #666;
+}
+/**********************
+MENU
+**********************/
+.menu {
+	list-style:none; margin: 14px 25px 0 10px;
+	width: 600px;
+	float: left;
+	margin-bottom: 10px;
+}
+.menu-title {
+	margin: 14px 25px 0 10px;
+	float: right;
+	margin-bottom: 10px;
+}
+.menu li {
+	float: left;
+	margin: 0 4px 0 0;
+}
+.menu li a {
+	display: block;
+	font-size: 14px;
+	padding: 14px 24px;
+	border: 1px solid #4484CE;
+}
+.menu a:hover, .menu li.current a {
+	border: 1px solid #fff;
+}
+.header-img {
+	overflow: hidden; width: 980px;
+	position: relative;
+}
+
+/**********************
+FORMATTING
+**********************/
+ul {
+	color: #666;
+	margin: 0 0 10px 30px;
+	line-height: 18px;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 980px;
+
+}
+
+#header-padding {
+	padding: 20px 12px 10px;
+}
+
+#content {
+	background: #F19F4D;
+	width: 980px;
+}
+
+.left {
+	width: 600px;
+	float: left;
+	margin-left: 20px;
+	display: inline;
+}
+/**********************
+FORM
+**********************/
+.left form {
+	padding-left: 40px;
+}
+.left label {
+	float: left;
+	display: block;
+	clear: both;
+	padding: 3px 0;
+	color: #666;
+	font-weight:
+	normal; width: 150px;
+}
+
+.left input.text, textarea, select {
+	float: left;
+	margin: 0 5px 10px 0;
+	padding: 7px;
+	width: 350px;
+	border: 1px solid #ccc;
+}
+.left textarea {
+	height: 200px;
+}
+.left select {
+	width: 366px;
+}
+
+.left input:focus {
+	border-color:#aaa;
+}
+.left textarea:focus {
+	border-color: #aaa;
+}
+
+.left .submit {
+	border: 2;
+	background: #4484CE;
+	color: #fff;
+	padding: 5px;
+	float: left;
+	margin-left: 150px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+#right {
+	width: 260px;
+	float: right;
+	border-left: 1px solid #F9CF00;
+	padding-left: 35px;
+	margin-right: 20px;
+	display: inline;
+}
+/**********************
+FOOTER
+**********************/
+
+#footer	 {
+	color: #000;
+	font-size: 13px;
+	margin: 20px 0 20px 10px;
+	text-align: center;
+}
+
+
+
+/**********************
+TABLE
+**********************/
+
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+		width: 100%;
+		border: 1px solid #F19F4D;
+	}
+
+	th, td {
+		border: none;
+		text-align: center;
+		padding: 10px;
+	}
+	tr {
+		background-color:#F9CF00
+	}
+	tr:nth-child(even){
+		background-color: #F19F4D
+	}
